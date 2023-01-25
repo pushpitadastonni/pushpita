@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border: 2px solid ;
+        }
+        .mail{
+            margin: 1em;
+            padding: 5px;
+        }
+        .input-form>input[type="submit"]{
+            background-color: burlywood;
+            padding: 10px;
+            border:0 ;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0 50px;
+            color: whitesmoke;
+        }
+        .input-form>input[type="reset"]{
+            background-color: burlywood;
+            padding: 10px;
+            margin: 15px 50px;
+            border-radius: 5px;
+            border: 0;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is login page</h1>
+    <form action="" class="input-form">
+        <input type="name"class="mail"  name="Name" placeholder="Name" required>
+        <input type="email" name="email" id="" placeholder="Enter E-mail " class="mail" required>
+        <input type="password" name="password" id="" placeholder="Password"  class="mail" required>
+        
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+        
+    </form>
+</body>
+</html>
